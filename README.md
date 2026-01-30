@@ -69,6 +69,8 @@ There are two ways for installation:
 
     - **Sonoma**: `sudo /Applications/Install\ macOS\ Sonoma.app/Contents/Resources/createinstallmedia --volume /Volumes/MyVolume`
 
+    - **Sequoia**: `sudo /Applications/Install\ macOS\ Sequoia.app/Contents/Resources/createinstallmedia --volume /Volumes/MyVolume`
+
 2. If you are using Windows, use [macrecovery.py](https://github.com/acidanthera/OpenCorePkg/tree/master/Utilities/macrecovery) from the offical [OpenCore release package](https://github.com/acidanthera/OpenCorePkg/releases/). Follow this [guide](https://dortania.github.io/OpenCore-Install-Guide/installer-guide/winblows-install.html) to understand how it works.
 
 After creating a bootable Installer, copy the EFI folder to the EFI partition and proceed with the installation. After completing the installation, mount the EFI partition of the installed OS and copy the EFI folder to its partition.
@@ -190,7 +192,7 @@ For users on Sonoma, you need to enable the AppleCPUPowerManagement and AppleCPU
 
 ## Screenshot
 
-![About this Mac](https://github.com/SkyrilHD/HP-8x70W-Hackintosh/assets/28839925/472d73ac-5202-404c-9bb9-553c44f9e1a6)
+![About this Mac](./assets/screenshot_sequoia.png)
 
 ## Credits
 
